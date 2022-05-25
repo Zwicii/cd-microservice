@@ -107,6 +107,7 @@ func getProductsByUpperPrice(db *sql.DB, upperPrice int ) ([]product, error) {
 	// github action test
 	// sonar test
 	// sonar test2
+	// sonar test3
 
 	products := []product{}
 
