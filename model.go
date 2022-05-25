@@ -104,6 +104,8 @@ func getProductsByUpperPrice(db *sql.DB, upperPrice int ) ([]product, error) {
 
 	defer rows.Close()
 
+	// test
+
 	products := []product{}
 
 	for rows.Next() {
